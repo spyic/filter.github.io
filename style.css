@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    font-family: Verdana;
+    margin: 40px;
+  }
+  
+  canvas {
+    border: 2px solid powderblue;
+    border-radius: 7px 7px;
+    height: 200px;
+    padding: 30px;
+    /* background-color: white;*/
+    display:block;
+    margin:auto;
+  
+  }
+  
+  input {
+    font-size: 12pt;
+  }
+  
+  h1 {
+    color: blue;
+    text-align: center;
+  }
+  
+  .customsBtn {
+    border: 5px solid powderblue;
+    border-radius: 400px 400px;
+    margin: 100px;
+    background-color: lightblue;
+    font-family: verdana;
+    font-size: 15px;
+    text-align: center;
+    
+  }
+  
+  #btnGray { 
+    text-decoration: none;
+    padding: 7px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    }
+  #btnGray:hover{
+      color: black;
+      background-color: gray;
+    }
+  
+  #btnRed { 
+    text-decoration: none;
+    padding: 7px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    }
+  #btnRed:hover{
+      color: black;
+      background-color: red;
+    }
+  
+  #btnRainbow, #btnReset { 
+    text-decoration: none;
+    padding: 7px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    }
+  #btnRainbow:hover{
+      color: black;
+      background-color: white ;
+    }
+  
+  #btnReset:hover{
+      color: black;
+      background-color: white;
+    }

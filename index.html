@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Filter Project</title>
+</head>
+
+<body>
+    <h1>Fun Image Filter!</h1>
+    <canvas id="canvas">
+
+    </canvas>
+
+    <div class="customsBtn">
+        <h2>Load Image</h2>
+
+        <input type="file" multiple="false" accept="image/*" onchange="upload()" id="fileInput">
+
+        <h2>Choose Filter</h2>
+
+        <input type="button" value="Grayscale" onclick="makeGray()" id="btnGray">
+
+        <input type="button" value="Red" onclick="makeRed()" id="btnRed">
+
+        <input type="button" value="Rainbow" onclick="makeRainbow()" id="btnRainbow">
+
+        <h2>Reset Image</h2>
+
+        <input type="button" value="Reset Image" onclick="resetImage()" id="btnReset">
+    </div>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <script src="filter.js"></script>
+</body>
+
+</html>
